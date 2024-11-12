@@ -1,0 +1,21 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "A simple website for login and dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
